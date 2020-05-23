@@ -1,0 +1,13 @@
+{
+  "uuid": "tuxedo-keyboard-gnome-extension",
+  "name": "Tuxedo Backlight Keyboard",
+  "gettext-domain": "tuxedo-keyboard-gnome-extension", 
+  "settings-schema": "org.gnome.shell.extensions.tuxedo-keyboard", 
+  "description": "Control Backlight Keyboard",
+  "original-authors": "Fethi Gurcan, FAnelia82",
+  "url": "https://github.com/fethigurcan/tuxedo-keyboard-gnome-extension",
+  "shell-version": [
+    "3.36"
+  ],
+  "version": 1
+}
