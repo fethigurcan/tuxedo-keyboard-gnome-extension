@@ -1,3 +1,9 @@
+It is a Gnome Shell extension to work with notebook computer which is compatible with https://github.com/tuxedocomputers/tuxedo-keyboard kernel driver. 
+
+It can change and save/restore the backlight settings of the keyboard.
+
+Tuxedo, Monster, Clevo notebook models might work.
+
 
 # History
 
@@ -16,8 +22,9 @@ You need gnome shell extensions.
 
 Then, clone repository and do "make install". 
 
-Last, you need to give 666 permissions to brightness,color_* device files at /sys/devices/platform/tuxedo_keyboard, you can copy 30-tuxedo-keyboard.rules file to /etc/udev/rules.d directory. 
+Then, you need to give 666 permissions to brightness,color_* device files at /sys/devices/platform/tuxedo_keyboard, you can copy 30-tuxedo-keyboard.rules file to /etc/udev/rules.d directory. 
 
-Not: It is at your own risk! With this operation everbody can write to your tuxedo-keyboard settings.
+Note: It is at your own risk! With this operation everbody can write to your tuxedo-keyboard settings.
 
-	
+Alt+F2 and r and Enter.
+
