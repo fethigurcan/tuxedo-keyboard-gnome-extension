@@ -10,5 +10,5 @@ uninstall:
 	rm -rf ~/.local/share/gnome-shell/extensions/tuxedo-keyboard-gnome-extension
 
 clean:
-	rm src/schemas/gschemas.compiled
-	rm tuxedo-keyboard-gnome-extension.zip
+	rm src/schemas/gschemas.compiled || true
+	rm tuxedo-keyboard-gnome-extension.zip || true
